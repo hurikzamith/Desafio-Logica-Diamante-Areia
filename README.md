@@ -10,14 +10,14 @@ O programa recebe uma expressão de string como entrada e remove todos os pontos
 <h1> Como executar</h1>
 Para executar o programa, basta chamar a função mine_diamonds e passar uma expressão de string como argumento. Por exemplo:
 
-> mine_diamonds("<.<.>.>.<.>.")
+<h3>> mine_diamonds("<.<.>.>.<.>.")</h3>
 
 <h1>Testes</h1>
 O programa vem com um conjunto de testes de unidade Minitest para garantir que ele esteja funcionando corretamente. Para executar os testes, basta executar o seguinte comando no terminal:
 
-<h1>Copy code</h1>
-ruby mine_diamonds_test.rb
-Os testes cobrem vários cenários, incluindo entrada vazia, entrada confusa, entrada com um diamante, entrada com diamantes e areia e muito mais.
+<h3> > ruby mine_diamonds_test.rb</h3>
+
+Os testes cobrem vários cenários, incluindo entrada vazia, entrada com clutter, entrada com um diamante, entrada com diamantes e areia e muito mais.
 
 <h1>Dependências</h1>
 O programa depende da biblioteca minitest para executar os testes de unidade. A biblioteca está incluída no Ruby, portanto, nenhuma instalação adicional é necessária.
