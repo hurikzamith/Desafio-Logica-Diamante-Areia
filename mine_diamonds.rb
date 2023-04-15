@@ -17,7 +17,7 @@
 
 ############################################################################################################
 
-def mine_diamonds(expression)
+def mine_diamonds (expression)
   diamonds_quantity = 0
   expression.delete!('.')
   while expression.include?('<>')
